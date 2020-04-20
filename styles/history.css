@@ -1,0 +1,168 @@
+/* styles for the header */
+header{
+    border: 3px solid black;
+    background-image:url(../images/backgroundBeans.jpg);
+}
+header h1{
+    color: white;
+    font-size: 2.5em;
+    border: 2px solid white;
+    background: black;
+    width: 6.5em;
+    padding: .25em .75em;
+    margin-left: 15.1em;    
+}
+
+/* Technical part of Nav Menu */
+#nav_menu ul {
+	list-style: none;
+	position: relative;    /* So the first submenu can be positioned within the main menu */
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul ul {
+	display: none;         /* Don't display submenu until hover of the li element */
+	position: absolute;
+	top: 100%;             /* Position the submenu at the bottom of the main menu */
+}
+#nav_menu ul ul li {
+	float: none;           /* Display the submenus vertically */
+}
+#nav_menu ul li:hover > ul {
+	display: block;        /* Display the submenu on hover of the li element */
+}
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/* styles for Nav Menu*/
+#nav_menu ul {
+	list-style: none;
+	position: relative;    /* So the first submenu can be positioned within the main menu */
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul ul {
+	display: none;         /* Don't display submenu until hover of the li element */
+	position: absolute;
+	top: 100%;             /* Position the submenu at the bottom of the main menu */
+}
+#nav_menu ul ul li {
+	float: none;           /* Display the submenus vertically */
+}
+#nav_menu ul li:hover > ul {
+	display: block;        /* Display the submenu on hover of the li element */
+}
+#nav_menu > ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#nav_menu ul {
+	margin-left:0;
+	padding: 0;
+    
+}
+#nav_menu ul li a {
+	text-align: center;
+	display: block;
+	width: 297.8px;
+	padding: 1em 0;
+    margin-top: -1em;
+	text-decoration: none;
+	background-color: #8f4723;
+	color: black;
+	font-weight:bolder;
+    border: 3px solid;
+    border-top-style:hidden;
+}
+main{
+    clear: both;
+}
+section{
+    float:left;
+    width: 35%;
+    border-right: 2px solid black;
+    margin:0 1em;
+    height: 450px;
+    margin-bottom: 1em
+}
+aside{
+    float: right;
+    width:65%;    
+    margin: 0 1em;
+}
+aside p{
+    float: right;
+    font-size:2.2em ;
+    width: 20em;
+    margin-top: -11.5em;
+    margin-right: 6em;
+}
+main {
+    font-family:"Patrick Hand", serif;
+}
+h2{
+    font-size: 4em;
+    margin-left: .5em;
+    text-decoration: underline;
+}
+h3{
+    font-size: 2em;
+}
+section ul li{
+    font-size: 1.5em
+}
+footer p{
+    font-family: "Patrick Hand", serif;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    width: 15em;
+    margin-left: 38em;
+}
+footer{clear: both;
+    border: 2px solid black;
+    background-image: url(../images/backgroundBeans.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

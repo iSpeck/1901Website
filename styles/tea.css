@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+/* styles for the body */
+header{
+	border: 3px solid black;
+	background-image: url("../images/backgroundBeans.jpg");
+
+    
+    
+}
+header h1{
+	color: white;
+	font-size: 2.5em;
+	border: 2px solid white;
+	background: black;
+	width: 6.5em;
+	padding: .25em .75em;
+	margin-left: 15.1em  
+}
+
+/* Technical part of Nav Menu */
+#nav_menu ul {
+    list-style: none;
+    position: relative;	/* So the first submenu can be positioned within the main menu */
+}
+#nav_menu ul li {
+    float: left;
+}
+#nav_menu ul ul {
+    display: none;     	/* Don't display submenu until hover of the li element */
+    position: absolute;
+    top: 100%;         	/* Position the submenu at the bottom of the main menu */
+}
+#nav_menu ul ul li {
+    float: none;       	/* Display the submenus vertically */
+}
+#nav_menu ul li:hover > ul {
+    display: block;    	/* Display the submenu on hover of the li element */
+}
+#nav_menu > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* styles for Nav Menu*/
+#nav_menu ul {
+    list-style: none;
+    position: relative;	/* So the first submenu can be positioned within the main menu */
+}
+#nav_menu ul li {
+    float: left;
+}
+#nav_menu ul ul {
+    display: none;     	/* Don't display submenu until hover of the li element */
+    position: absolute;
+    top: 100%;         	/* Position the submenu at the bottom of the main menu */
+}
+#nav_menu ul ul li {
+    float: none;       	/* Display the submenus vertically */
+}
+#nav_menu ul li:hover > ul {
+    display: block;    	/* Display the submenu on hover of the li element */
+}
+#nav_menu > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#nav_menu ul {
+    margin-left:0;
+    padding: 0;
+    
+}
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 291.4px;
+    padding: 1em 0;
+	margin-top: -1em;
+    text-decoration: none;
+    background-color: #8f4723;
+    color: black;
+    font-weight:bolder;
+	border: 3px solid;
+	border-top-style: hidden;
+}
+
+/* the styles for the body */
+#h1{
+	border-bottom: 5px solid black;
+	text-align: center;
+}
+/* the styles for the images */
+#tea_menu{
+	margin-left: 22em;
+}
+#sweat_tea{
+	margin-left: 22em;
+	margin-right: auto;
+	margin-top: 3em
+}
+#london_fog{
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 19em;
+}
+#lemonade{
+	margin-left: 40em;
+	margin-right: auto;
+	padding-top: 3em
+}
+
+
+
+

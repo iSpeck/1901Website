@@ -1,0 +1,41 @@
+/* the styles for the body */
+#h1{
+    font-family: "Patrick Hand", serif;
+    font-size: 4em;
+	text-decoration: underline;
+	text-align: center;
+}
+/* the styles for the images */
+#coffee_menu{
+	margin-left: 11.5em; 
+}
+#coffee{
+	margin-left: 11.5em;
+	margin-right: auto;
+	margin-top: 1em;
+	border: 3px solid black;
+}
+#iced_coffee{
+	margin-left: 37em;
+	margin-right: auto;
+	border: 3px solid black;
+}
+#cafe_au_lait{
+	margin-left: 38.5em;
+	margin-right: auto;
+	margin-top: 1em;
+	border: 3px solid black;
+    margin-bottom: 2em;
+}
+footer p{
+    font-family: "Patrick Hand",serif;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    width: 15em;
+    margin-left: 38em;
+}
+footer{clear: both;
+    border: 2px solid black;
+    background-image: url(../images/backgroundBeans.jpg);    
+}

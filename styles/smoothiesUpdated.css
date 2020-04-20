@@ -1,0 +1,47 @@
+/* the styles for the body */
+#h1{
+    font-family: "Patrick Hand",serif;
+    font-size: 4em;
+	text-decoration: underline;
+	text-align: center;
+}
+/* the styles for the images */
+#smoothie_menu{
+	margin-left: 11.5em;
+}
+#mango_smoothie{
+	margin-left: 11.5em;
+	margin-right: auto;
+	margin-top: 3em;
+	border: 3px solid black
+}
+#strawberry_smoothie{
+	margin-left: 37em;
+	margin-right: auto;
+	border: 3px solid black
+}
+#vanilla_protein{
+	margin-left: 11.3em;
+	margin-right: auto;
+	border: 3px solid black;
+    margin-bottom: 2em;
+}
+#chocolate_protein{
+	margin-left: 37.3em;
+	margin-right: auto;
+	margin-top: 7em;
+	border: 3px solid black;
+    margin-bottom: 2em;
+}
+footer p{
+    font-family: "Patrick Hand",serif;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    width: 15em;
+    margin-left: 40em;
+}
+footer{clear: both;
+    border: 2px solid black;
+    background-image: url(../images/backgroundBeans.jpg);
+}
